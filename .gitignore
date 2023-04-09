@@ -1,0 +1,15 @@
+.smex-items
+*~$
+places
+.recentf
+ido.last
+cider-history
+projectile-bookmarks.eld
+projectile.cache
+auto-save-list
+backups
+melpa-stable
+archive-contents
+*.elc
+elpa
+transient
