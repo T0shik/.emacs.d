@@ -26,11 +26,14 @@
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 
-
-
 (set-face-attribute 'default nil
                     :family "JetBrains Mono"
                     :height 160
                     :weight 'normal
                     :width 'normal)
+
+;; projectile config
+(require 'projectile)
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+(projectile-mode +1)
 
