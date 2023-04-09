@@ -36,4 +36,11 @@
 (require 'projectile)
 (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
 (projectile-mode +1)
+(setq projectile-project-search-path '("~/ws/" "~/temp/" "~/.emacs.d/"))
 
+;; smex config
+(require 'smex)
+(smex-initialize)
+
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
